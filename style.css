@@ -1,0 +1,871 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main{
+    background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(home.jpg);
+
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+    font-size: larger;
+
+    
+}
+ul li{
+    display: inline-block;
+
+}
+ul li a{
+text-decoration: none;
+color: white;
+padding: 3px 40px;
+transition: 1s ease;
+padding-inline-start: 20px;
+
+}
+li a:hover{
+ color: white;
+ background-color: #13B0A2;   
+}
+ .logo img{
+  float: left;
+  width: 150px;
+  height: auto;
+ }
+ .title{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.title h1{
+    font-size: 50px;
+    color: white;
+}
+.title h3{
+    position: absolute;
+    right: 10%;
+    color:#EB2828;
+}
+
+.btn{
+    position: absolute;
+    top: 60%;
+    left: 42%;
+}
+button{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    border-radius: 25px;
+    margin: 20px 10px;
+    width: 200px;
+    background: transparent;
+    transition: 0.5s ease-in-out;
+    color: white;
+    border: 2px solid #009688
+}
+button:hover{
+    color: white;
+    background-color:#009688 ;
+}
+.top_sell{
+   
+        background-image: linear-gradient(rgba(4, 9, 30, 0.2), rgba(8, 9, 30, 5)), url(home.jpg);
+    
+        height: 40vh;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    
+    }
+
+.top_sell_h{
+
+    background-color:whitesmoke ;
+    height: 146vh;
+    background-size: auto;
+    background-position: center;
+    
+  
+    
+    
+}    
+.top_sell_h h3{
+    position: absolute;
+    margin-top: 20px;
+    left: 47%;
+    font-size: larger;
+    color:  #189d0c;
+}
+
+img{
+    position: absolute;
+    width: 400px;
+    margin-top: 5%;
+    border-radius: 20px;
+    left: 20px;
+}
+.brown{
+    position: absolute;
+    width: 400px;
+    margin-top: 3.5%;
+    border-radius: 20px;
+    left: 33.5%;
+    
+}
+.pot{
+    position: absolute;
+    width: 400px;
+    margin-top: 3.5%;
+    border-radius: 20px;
+    left: 67%;
+    
+}
+.star_icon{
+    color: #EB2828;
+    position: absolute;
+    left: 22%;
+    margin-top:22.5%;
+}
+.star_icon2{
+    color: #EB2828;
+    position: absolute;
+    left:55.5%;
+    margin-top:22.5%;
+}
+.star_icon3{
+    color: #EB2828;
+    position: absolute;
+    left: 89%;
+    margin-top:22.5%;
+}
+.top_sell_h img{
+    transition:.5s ease;
+}
+
+.top_sell_h img:hover{
+    transform: scale(1.1);
+    z-index: 1;   
+
+}
+h5{
+    position: absolute;
+    left: 30px;
+    margin-top: 5.5%;
+    color: #f9f9f9d9;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+    
+}
+.brown h5{
+    position: absolute;
+    left: 30px;
+    margin-top:6.5%;
+}
+.pot h5{
+    position: absolute;
+    left: 30px;
+    margin-top:6.5%;
+}
+
+
+.fourth{
+    position: absolute;
+    margin-top: 27%;
+
+}
+
+.fifth{
+    position: absolute;
+    margin-top: 27%;
+    left: 33.5%;
+}
+.six{
+    position: absolute;
+    margin-top: 27%;
+    left: 67%;
+}
+.star_icon4{
+    color: #EB2828;
+    position: absolute;
+    left: 22%;
+    margin-top:44.5%;
+}
+.star_icon5{
+    color: #EB2828;
+    position: absolute;
+    left:55.5%;
+    margin-top:44.5%;
+}
+.star_icon6{
+    color: #EB2828;
+    position: absolute;
+    left: 89%;
+    margin-top:44.5%;
+}
+
+.fourth h5{
+    position: absolute;
+    left:30px;
+    margin-top: 7px;
+    color: #f9f9f9d9;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+    
+}
+.fifth h5{
+    position: absolute;
+    left: 30px;
+    margin-top:7px;
+}
+.six h5{
+    position: absolute;
+    left: 30px;
+    margin-top:7px;
+}
+
+
+.seven{
+    position: absolute;
+    margin-top: 49%;
+
+}
+
+.eight{
+    position: absolute;
+    margin-top: 49%;
+    left: 33.5%;
+}
+.nine{
+    position: absolute;
+    margin-top: 49%;
+    left: 67%;
+}
+
+.star_icon7{
+    color: #EB2828;
+    position: absolute;
+    left: 22%;
+    margin-top:66.5%;
+}
+.star_icon8{
+    color: #EB2828;
+    position: absolute;
+    left:55.5%;
+    margin-top:66.5%;
+}
+.star_icon9{
+    color: #EB2828;
+    position: absolute;
+    left: 89%;
+    margin-top:66.5%;
+}
+
+/*kitchen*/
+
+
+.kitch{
+   
+        background-image: linear-gradient(rgba(4, 9, 30, 0.2), rgba(8, 9, 30, 5)), url(home.jpg);
+        height: 40vh;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    
+    }
+
+    .kitch_h{
+       background-color: whitesmoke;
+        height: 146vh;
+        background-size: auto;
+        background-position: center;
+    }
+    .kitch_h h3{
+        position: absolute;
+        margin-top: 20px;
+        left: 47%;
+        font-size: x-large;
+        color: #189d0c;
+    }
+    
+   .seventeen {
+        position: absolute;
+        width: 400px;
+        margin-top: 3.5%;
+        border-radius: 20px;
+        left: 17px;
+    }
+    .eighteen{
+        position: absolute;
+        width: 400px;
+        margin-top: 3.5%;
+        border-radius: 20px;
+        left: 34%;
+        
+    }
+    .nineteen{
+        position: absolute;
+        width: 400px;
+        margin-top: 3.5%;
+        border-radius: 20px;
+        left: 67%;
+    }
+    .kitch_h img{
+        transition: .5s ease;
+    }
+    .kitch_h img:hover{
+        transform: scale(1.1);
+        z-index: 1;
+    }
+    
+    .star_icon10{
+        color: #EB2828;
+        position: absolute;
+        left: 22%;
+        margin-top:22.5%;
+    }
+    .star_icon11{
+        color: #EB2828;
+        position: absolute;
+        left:55.5%;
+        margin-top:22.5%;
+    }
+    .star_icon12{
+        color: #EB2828;
+        position: absolute;
+        left: 89%;
+        margin-top:22.5%;
+    }
+
+    .twenty{
+        position: absolute;
+        margin-top: 27%;
+    
+    }
+    
+    .twentyone{
+        position: absolute;
+        margin-top: 27%;
+        left: 33.5%;
+    }
+    .twentytwo{
+        position: absolute;
+        margin-top: 27%;
+       
+        left: 67%;
+    }
+
+    .star_icon13{
+        color: #EB2828;
+        position: absolute;
+        left: 22%;
+        margin-top:44.5%;
+    }
+    .star_icon14{
+        color: #EB2828;
+        position: absolute;
+        left:55.5%;
+        margin-top:44.5%;
+    }
+    .star_icon15{
+        color: #EB2828;
+        position: absolute;
+        left: 89%;
+        margin-top:44.5%;
+    }
+    
+
+    
+
+
+    .twentythree{
+        position: absolute;
+        margin-top: 49%;
+    
+    }
+    
+    .twentyfour{
+        position: absolute;
+        margin-top: 49%;
+        left: 33.5%;
+    }
+    .twentyfive{
+        position: absolute;
+        margin-top: 49%;
+        left: 67%;
+    }
+    
+    .star_icon16{
+        color: #EB2828;
+        position: absolute;
+        left: 22%;
+        margin-top:66.5%;
+    }
+    .star_icon17{
+        color: #EB2828;
+        position: absolute;
+        left:55.5%;
+        margin-top:66.5%;
+    }
+    .star_icon18{
+        color: #EB2828;
+        position: absolute;
+        left: 89%;
+        margin-top:66.5%;
+    }
+
+
+    /*BedRoom*/
+
+    .bed{
+   
+        background-image: linear-gradient(rgba(4, 9, 30, 0.2), rgba(8, 9, 30, 5)), url(home.jpg);
+        height: 40vh;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    
+    }
+
+    .bed_h{
+       background-color: whitesmoke;
+        height: 146vh;
+        background-size: auto;
+        background-position: center;
+    }
+    .bed_h h3{
+        position: absolute;
+        margin-top: 20px;
+        left: 47%;
+        font-size: x-large;
+        color: #189d0c;
+    }
+     
+    .bed_h img{
+        transition: .5s ease;
+    }
+
+    .bed_h img:hover{
+        transform: scale(1.1);
+        z-index: 1;
+    }
+
+
+    .twentysix{
+        position: absolute;
+        width: 400px;
+        margin-top: 3.3%;
+        border-radius: 20px;
+        left: 15px;
+    }
+    .twentyseven{
+        position: absolute;
+        width: 400px;
+        margin-top: 3.5%;
+        border-radius: 20px;
+        left: 34%;
+        
+    }
+    .twentyeigth{
+        position: absolute;
+        width: 400px;
+        margin-top: 3.5%;
+        border-radius: 20px;
+        left: 67%;
+        
+    }
+    .star_icon19{
+        color: #EB2828;
+        position: absolute;
+        left: 22%;
+        margin-top:22.5%;
+    }
+    .star_icon20{
+        color: #EB2828;
+        position: absolute;
+        left:55.5%;
+        margin-top:22.5%;
+    }
+    .star_icon21{
+        color: #EB2828;
+        position: absolute;
+        left: 89%;
+        margin-top:22.5%;
+    }
+
+
+
+    .twentynine{
+        position: absolute;
+        margin-top: 27%;
+        left: 15px;
+    
+    }
+    
+    .thirty{
+        position: absolute;
+        margin-top: 27%;
+        left: 34%;
+    }
+    .thirtyone{
+        position: absolute;
+        margin-top: 27%;
+        left: 67%;
+    }
+
+
+    .star_icon22{
+        color: #EB2828;
+        position: absolute;
+        left: 22%;
+        margin-top:44.5%;
+    }
+    .star_icon23{
+        color: #EB2828;
+        position: absolute;
+        left:55.5%;
+        margin-top:44.5%;
+    }
+    .star_icon24{
+        color: #EB2828;
+        position: absolute;
+        left: 89%;
+        margin-top:44.5%;
+    }
+
+
+    .thirtytwo{
+        position: absolute;
+        margin-top: 49%;
+        left: 15px;
+    
+    
+    }
+    
+    .thirtythree{
+        position: absolute;
+        margin-top: 49%;
+        left: 34%;
+    }
+    .thirtyfour{
+        position: absolute;
+        margin-top: 49%;
+        left: 67%;
+    }
+    
+    .star_icon25{
+        color: #EB2828;
+        position: absolute;
+        left: 22%;
+        margin-top:66.5%;
+    }
+    .star_icon26{
+        color: #EB2828;
+        position: absolute;
+        left:55.5%;
+        margin-top:66.5%;
+    }
+    .star_icon27{
+        color: #EB2828;
+        position: absolute;
+        left: 89%;
+        margin-top:66.5%;
+    }
+
+
+
+
+    /*Balcony*/
+    .bal{
+   
+        background-image: linear-gradient(rgba(4, 9, 30, 0.2), rgba(8, 9, 30, 5)), url(home.jpg);
+        height: 40vh;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    
+    }
+
+    .bal_h{
+        background-color: whitesmoke;
+        height: 146vh;
+        background-size: auto;
+        background-position: center;
+    }
+    .bal_h h3{
+        position: absolute;
+        margin-top: 20px;
+        left: 47%;
+        font-size: x-large;
+        color: #189d0c;
+    }
+     
+    .bal_h img{
+        transition: .5s ease;
+    }
+
+    .bal_h img:hover{
+        transform: scale(1.1);
+        z-index: 1;
+    }
+
+
+    .thirtyfive{
+        position: absolute;
+        width: 400px;
+        margin-top: 3.3%;
+        border-radius: 20px;
+        left: 15px;
+    }
+    .thirtysix{
+        position: absolute;
+        width: 400px;
+        margin-top: 3.5%;
+        border-radius: 20px;
+        left: 34%;
+        
+    }
+    .thirtyseven{
+        position: absolute;
+        width: 400px;
+        margin-top: 3.5%;
+        border-radius: 20px;
+        left: 67%;
+        
+    }
+    .star_icon28{
+        color: #EB2828;
+        position: absolute;
+        left: 22%;
+        margin-top:22.5%;
+    }
+    .star_icon29{
+        color: #EB2828;
+        position: absolute;
+        left:55.5%;
+        margin-top:22.5%;
+    }
+    .star_icon30{
+        color: #EB2828;
+        position: absolute;
+        left: 89%;
+        margin-top:22.5%;
+    }
+
+
+
+    .thirtyeight{
+        position: absolute;
+        margin-top: 27%;
+        left: 15px;
+    
+    }
+    
+    .thirtynine{
+        position: absolute;
+        margin-top: 27%;
+        left: 34%;
+    }
+    .forty{
+        position: absolute;
+        margin-top: 27%;
+        left: 67%;
+    }
+
+
+    .star_icon31{
+        color: #EB2828;
+        position: absolute;
+        left: 22%;
+        margin-top:44.5%;
+    }
+    .star_icon32{
+        color: #EB2828;
+        position: absolute;
+        left:55.5%;
+        margin-top:44.5%;
+    }
+    .star_icon33{
+        color: #EB2828;
+        position: absolute;
+        left: 89%;
+        margin-top:44.5%;
+    }
+
+
+    .fourtyone{
+        position: absolute;
+        margin-top: 49%;
+        left: 15px;
+    
+    
+    }
+    
+    .fourtytwo{
+        position: absolute;
+        margin-top: 49%;
+        left: 34%;
+    }
+    .fourtythree{
+        position: absolute;
+        margin-top: 49%;
+        left: 67%;
+    }
+    
+    .star_icon34{
+        color: #EB2828;
+        position: absolute;
+        left: 22%;
+        margin-top:66.5%;
+    }
+    .star_icon35{
+        color: #EB2828;
+        position: absolute;
+        left:55.5%;
+        margin-top:66.5%;
+    }
+    .star_icon36{
+        color: #EB2828;
+        position: absolute;
+        left: 89%;
+        margin-top:66.5%;
+    }
+    
+    .footer{
+       
+        height: 40vh;
+        background-color: rgb(225, 224, 231);
+        display: flex;
+        justify-content: center;
+       
+}
+
+     a{
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+        text-align: center;
+        margin-top: 10px;
+        margin: 10px;
+     }
+    
+   a i{
+    font-size: 35px;
+    margin-top: 30%;
+   }
+   .fa-facebook-square{
+    color:#4267B2 ;
+   }
+   .fa-instagram{
+    color: #e95950 ;
+   }
+
+   .fa-youtube-play{
+    color: #FF0000;
+   }
+
+   
+   .fa-twitter-square{
+    color:#1DA1F2 ;
+   }
+   .fa-linkedin-square{
+    color: #0A66C2;
+   }
+  .footer p{
+    position: absolute;
+    text-align: center;
+    margin-top: 16%;
+    align-items: center;
+  }
+
+  .footer img{
+    position: absolute;
+    width: 200px;
+    margin-top:6%;
+    left: 43%;
+}
+
+/*kitchen footer*/
+.footer-kitch{
+        height: 40vh;
+        background-color: rgb(225, 224, 231);
+        display: flex;
+        justify-content: center;
+
+}
+
+.footer-kitch p{
+    position: absolute;
+    text-align: center;
+    margin-top:16%;
+    align-items: center;
+  }
+
+  .footer-kitch img{
+    position: absolute;
+    width: 200px;
+    margin-top:6%;
+    left: 43%;
+}
+
+/*living footer*/
+
+
+
+.footer-living{
+    height: 40vh;
+        background-color: rgb(225, 224, 231);
+        display: flex;
+        justify-content: center;
+}
+ .footer-living p{
+    position: absolute;
+    text-align: center;
+    margin-top:16%;
+    align-items: center;
+  }
+
+  .footer-living img{
+    position: absolute;
+    width: 200px;
+    margin-top:6%;
+    left: 43%;
+}
+
+
+
+/*bedroom footer*/
+
+
+
+.footer-bed{
+    height: 40vh;
+        background-color: rgb(225, 224, 231);
+        display: flex;
+        justify-content: center;
+}
+ .footer-bed p{
+    position: absolute;
+    text-align: center;
+    margin-top:16%;
+    align-items: center;
+  }
+
+  .footer-bed img{
+    position: absolute;
+    width: 200px;
+    margin-top:6%;
+    left: 43%;
+}
